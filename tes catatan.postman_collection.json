@@ -1,0 +1,134 @@
+{
+  "info": {
+    "_postman_id": "6cea127e-01e2-428d-b7ce-62cba710cb35",
+    "name": "tes catatan",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58518942",
+    "_collection_link": "https://go.postman.co/collection/58518942-6cea127e-01e2-428d-b7ce-62cba710cb35?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "tambh catatan",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"title\": \"Belajar PAW II\",\r\n  \"content\": \"Belajar Express.js dan MongoDB\",\r\n  \"category\": \"Kuliah\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/catatan",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "catatan"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "menapiikan catatan",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/catatan",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "catatan"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "mencari catatan",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "urutan catatan",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "detail catatan",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/catatan/6aedb05a8463eaf6a0fcae06",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "catatan",
+            "6aedb05a8463eaf6a0fcae06"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "menggubah catatan",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "deled catatan",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    }
+  ]
+}
